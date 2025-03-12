@@ -1,0 +1,37 @@
+.theme-light {
+    --background: #fff;
+    --foreground: #000;
+    --card: #fff;
+    --card-foreground: #000;
+    --primary: #f6f7fa;
+    --primary-foreground: #fff;
+    --secondary: #000;
+    --secondary-foreground: #000;
+    --muted: #000;
+    --muted-foreground: #000;
+    --destructive: #000;
+    --destructive-foreground: #fff;
+    --border: #000;
+    --input: #000;
+    --ring: #000;
+    --main-btn-linear: linear-gradient(to top right, #000000, #434343);
+}
+ 
+.theme-dark {
+    --background: #000;
+    --foreground: #fff;
+    --card: #000;
+    --card-foreground: #fff;
+    --primary: #fff;
+    --primary-foreground: #000;
+    --secondary: #000;
+    --secondary-foreground: #000;
+    --muted: #000;
+    --muted-foreground: #000;
+    --destructive: #000;
+    --destructive-foreground: #fff;
+    --border: #000;
+    --input: #000;
+    --ring: #000;
+    --main-btn-linear: linear-gradient(to top right, #ffffff, #e2e2e2);
+}

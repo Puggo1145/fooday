@@ -1,0 +1,41 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    padding-bottom: 32px;
+    background-color: var(--background);
+
+    .android {
+        padding-bottom: 12px;
+    }
+
+    .button {
+        width: 120px;
+        height: 48px;
+        border-radius: 24px;
+        background-color: var(--background);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button-main {
+        background: var(--main-btn-linear);
+    }
+
+    .button-main-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .button-default {
+        background-color: transparent;
+    }
+
+    .button-default-text {
+        color: var(--foreground);
+        font-size: 16px;
+        font-weight: 800;
+    }
+}
